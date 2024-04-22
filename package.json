@@ -1,13 +1,24 @@
 {
   "name": "zod-react-hook-form",
   "displayName": "zod-react-hook-form",
+  "publisher": "JaehaLee",
   "description": "zod + react-hook-form generator",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "icon": "images/logo.png",
+  "keywords": [
+    "zod",
+    "react-hook-form"
+  ],
   "engines": {
-    "vscode": "^1.88.0"
+    "vscode": "^1.46.0"
   },
+  "license": "MIT",
   "categories": [
-    "Other"
+    "Snippets"
+  ],
+  "extensionKind": [
+    "ui",
+    "workspace"
   ],
   "activationEvents": [],
   "main": "./dist/extension.js",
