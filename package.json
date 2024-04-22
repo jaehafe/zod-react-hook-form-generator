@@ -3,7 +3,7 @@
   "displayName": "zod-react-hook-form",
   "publisher": "JaehaLee",
   "description": "zod + react-hook-form generator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icon": "images/logo.png",
   "keywords": [
     "zod",
@@ -23,12 +23,20 @@
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
-    "commands": [
+    "snippets": [
       {
-        "command": "zod-react-hook-form.helloWorld",
-        "title": "Hello World"
+        "path": "./snippets/snippets.code-snippets"
       }
     ]
+  },
+  "author": {
+    "name": "Jaeha Lee",
+    "url": "https://github.com/jaehafe"
+  },
+  "homepage": "https://github.com/jaehafe/zod-react-hook-form-generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaehafe/zod-react-hook-form-generator"
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
